@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Wahono's Company</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- awal navbar -->
+        
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">     
+  <a class="navbar-brand" href="#">Wahono's Company</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+       
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home Page<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#data">Main Data</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Details
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#fasilitas">Facility</a>
+          <a class="dropdown-item" href="#Lokasi">Location</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#hak cipta">Copyright</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Enter what you want to search for" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+        
+        <!-- akhir navbar -->
+        
+        <!-- Awal Utama -->
+        
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="IT.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h1>Want to Find the Best IT Company?</h1>
+        <p>Wahono's Company is the solution.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        
+        <!-- Akhir Utama -->
+        
+        <!-- awal Data  -->
+
+        <div class="jumbotron" id="data">
+            <div class="container">
+            <h1 class="display-4">Wahono's Company Data</h1>
+            <table class="table table-striped table-dark">
+            <thead>
+            <th>Company Identity</th>
+            <th>Information</th>
+         
+            </thead>
+        <tr>
+            <th>Status</th>
+            <td>Private</td>
+        </tr>
+        <tr>
+            <th>Company Field</th>
+            <td>Technology</td>
+        </tr>
+        <tr>
+            <th>Ownership status</th>
+            <td>Private</td>
+        </tr>
+        <tr>
+            <th>SK Company Establishment</th>
+            <td>2024/i.108/SU.70/2065</td>
+        </tr>
+         <tr>
+            <th>Date of Decree of Establishment</th>
+            <td>2024-02-10</td>
+        </tr>
+         <tr>
+            <th>SK Operational Permit</th>
+            <td>2025/105/A.2065</td>
+        </tr>
+         <tr>
+            <th>Date of Decree of Operational Permit</th>
+            <td>2025-02-10</td>
+        </tr>
+         </table>    
+
+            </div>
+        </div>
+        
+        <!-- akhir Wahono's Company -->
+        
+        <!-- awal card -->
+<div class="container-fluid mt-5" id="Facility">
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+         <div class="card">
+             <img src="Ruangan.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+             <p class="card-text">Workspace</p>
+        </div>
+         </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+         <div class="card">
+            <img src="Laptop.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Laptop</p>
+         </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+        <!-- akhir card -->
+        
+    <!-- awal lokasi -->
+        <div class="embed-responsive embed-responsive-16by9 mt-5" id="Location">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127660.2022333455!2d99.55553181641905!3d0.8480198664682852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302bbe8501724173%3A0xdc65624e51420dbd!2sKec.%20Panyabungan%2C%20Kabupaten%20Mandailing%20Natal%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1664907938254!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>  
+        <!-- akhir lokasi -->
+        
+    <!-- awal footer -->
+    <footer class="footer mt-5 mb-5 text-center" id="Copyright">
+      Copyright <hr> @Wahono's Company 2024 (102)
+     </footer>
+        <!-- akhir footer -->
+       
+    </body>
+</html>
